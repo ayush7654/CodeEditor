@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+}
+.UpperPane{
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(194, 188, 188, 0.712);
+  gap: 20px;
+}
+.editor{
+  flex-grow: 1;
+  flex-basis: 0;
+  width:300px;
+  display: flex;
+  flex-direction: column;
+ 
+ 
+ 
+ 
+}
+.editor.collapse{
+  flex-grow: 0;
+}
+.CodeEditor{
+  border-bottom-left-radius: 10px;
+}
+.Editor{
+  height:100% !important;
+  
+}
+
+.header{
+  display: flex;
+  padding:.3rem;
+  flex-direction: row;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+  justify-content: space-between;
+  background-color: rgb(171, 162, 162);
+}
+
+.LowerPane{
+  height:50vh
+}
