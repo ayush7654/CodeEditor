@@ -38,9 +38,10 @@ body{
   border-top-right-radius: 10px;
   
   justify-content: space-between;
-  background-color: rgb(171, 162, 162);
+  background-color: rgba(77, 70, 70, 0.716);
 }
 
 .LowerPane{
-  height:50vh
+  height:50vh;
+  background-color: rgb(255, 255, 255);
 }
